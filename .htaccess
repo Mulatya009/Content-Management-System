@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cms\.cycam\.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cms\.cycam\.info$
+RewriteRule ^/?$ "http\:\/\/CMS\.cycam\.info\/cyrusCMS" [R=301,L]
+
